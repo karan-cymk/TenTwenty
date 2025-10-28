@@ -104,7 +104,10 @@ For major changes, please open an issue first to discuss what you’d like to mo
 
 This project is open-source and available under the MIT License
 .
+🕒 Time Spent
+   2 Days
 
+   
 👨‍💻 Author
 
 Karan Sahu
