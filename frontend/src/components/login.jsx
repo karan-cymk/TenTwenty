@@ -35,8 +35,8 @@
 
     return (
       <div>
-        <div className="md:flex items-center h-screen">
-          <div className="flex-1/2 md:py-0 py-10">
+        <div className="md:grid grid-cols-2 items-center h-screen">
+          <div className=" md:py-0 py-10">
             <div className="px-20">
               <h2 className="font-bold text-xl py-2">Welcome back</h2>
               <form onSubmit={handlesubmit}>
@@ -84,7 +84,7 @@
             </div>
           </div>
 
-          <div className="flex-1/2">
+          <div className="">
             <div className="px-20 bg-blue-700 h-screen overflow-hidden">
               <div className="translate-y-2/5 h-full">
                 <h2 className="text-white text-3xl pb-3 font-bold">ticktok</h2>
