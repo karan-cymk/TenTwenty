@@ -8,7 +8,7 @@ function Contextapi({ children }) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        let res = await fetch("http://localhost:5000/timesheet");
+        let res = await fetch(`${process.env.REACT_APP_Backend_URL}/timesheet`);
         let data = await res.json();
         setData(data);
       } catch (error) {

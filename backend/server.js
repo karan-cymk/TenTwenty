@@ -1,6 +1,9 @@
 let express = require("express");
 let cors = require("cors");
 let {users,timesheet} = require("./user");
+let port = process.env.PORT || 5000;
+
+
 
 let app = express();
 
@@ -38,6 +41,6 @@ app.get("/timesheet",(req,res)=>{
 
 
 
-app.listen(5000, () => {
-  console.log("✅ Server running on port 5000");
+app.listen(port, () => {
+  console.log(`✅ Server running on port  ${port}`);
 });
