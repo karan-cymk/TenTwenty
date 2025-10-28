@@ -4,7 +4,7 @@ let {users,timesheet} = require("./user");
 let port = process.env.PORT || 5000;
 
 
-
+require("dotenv").config();
 let app = express();
 
 app.use(express.json());
